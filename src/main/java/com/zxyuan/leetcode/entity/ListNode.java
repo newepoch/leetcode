@@ -8,10 +8,10 @@ package com.zxyuan.leetcode.entity;
  */
 public class ListNode {
 
-    int val;
+    public int val;
     public ListNode nextNode;
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
         this.nextNode = null;
     }

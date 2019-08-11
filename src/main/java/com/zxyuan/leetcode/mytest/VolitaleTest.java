@@ -1,8 +1,6 @@
 package com.zxyuan.leetcode.mytest;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.*;
 
 /**
  * @author ZXYUAN
@@ -13,6 +11,12 @@ public class VolitaleTest {
 
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newCachedThreadPool();
+        new ThreadPoolExecutor(5,
+                10, 5,
+                TimeUnit.SECONDS,
+                new ArrayBlockingQueue<Runnable>(5)
+
+        );
 
     }
 }

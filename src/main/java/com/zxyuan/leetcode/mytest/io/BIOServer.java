@@ -16,9 +16,9 @@ import java.util.concurrent.Executors;
 public class BIOServer {
     public void serve(int port) throws IOException {
         ServerSocket serverSocket = new ServerSocket(port);
-        while (true) {
-            // 阻塞直到收到新的客户端连接
-            final Socket clientSocket = serverSocket.accept();
+            while (true) {
+                // 阻塞直到收到新的客户端连接
+                final Socket clientSocket = serverSocket.accept();
 
             // 创建线程去执行客户端的请求
             new Thread(()->{

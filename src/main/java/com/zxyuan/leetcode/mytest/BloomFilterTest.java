@@ -11,7 +11,7 @@ import java.util.BitSet;
 public class BloomFilterTest {
 
     private static final int DEFAULT_SIZE = 2 << 24;
-    private static final int[] seeds = new int[] {7, 11, 13, 31, 37, 61,};
+    private static final int[] seeds = new int[] {7, 11, 13, 31, 37, 61};
 
     private BitSet bits = new BitSet(DEFAULT_SIZE);
     private SimpleHash[] func = new SimpleHash[seeds.length];

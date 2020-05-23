@@ -1,4 +1,4 @@
-package com.zxyuan.leetcode.classloader;
+package com.zxyuan.leetcode.mytest.classloader;
 
 import java.io.*;
 

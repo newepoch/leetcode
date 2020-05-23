@@ -1,7 +1,5 @@
 package com.zxyuan.leetcode.mytest;
 
-import sun.misc.LRUCache;
-
 import java.util.LinkedHashMap;
 import java.util.Map;
 
